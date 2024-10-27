@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: #dadada;
+}
+#nav{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    height: 70px;
+    /* background-color: coral; */
+    gap: 30px;
+    padding: 0 30px;
+}
+#nav h4{
+    font-size: 20px;
+    font-weight: 600;
+}
+#nav i{
+    font-size: 20px;
+    background-color: black;
+    color: white;
+    padding: 7px;
+    border-radius: 50%;
+}
+#center{
+    padding: 20px 80px;
+}
+#center h1{
+    font-size: 80px;
+    font-weight: 500;
+    list-style: 90px;
+}
+#center-in{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    /* background-color: green; */
+}
+#center-in p{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 32px;
+}
+#center-in-right{
+    width: 20%;
+    /* background-color: coral; */
+}
+.elem{
+    margin-top: 10px;
+    border-top: 2px solid black;
+    padding: 5px 0;
+    display: flex;
+    justify-content: space-between;
+
+}
+.elem a{
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+    line-height: 32px;
+    color: black;
+}
+.elem i{
+    font-size: 20px;
+    font-weight: 600;
+    padding-right: 5px;
+    opacity: 0;
+}
+
+.elem:hover i{
+    opacity: 1;
+}
+.elem:hover{
+    background-color: #c2bfbf;
+}
+#bottom{
+    height: 30%;
+    background-color: coral;
+    background-image: url(https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?q=80&w=2124&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: 0 6%;
+
+}
